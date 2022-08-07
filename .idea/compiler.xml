@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="parkinglot" />
+        <module name="cache" />
+        <module name="elevator" />
+        <module name="chess" />
+        <module name="cronparser" />
+        <module name="paymentApi" />
+        <module name="tinyurl" />
+        <module name="flightbooking" />
+        <module name="ubereats" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cache" target="17" />
+      <module name="chess" target="17" />
+      <module name="cronparser" target="17" />
+      <module name="elevator" target="17" />
+      <module name="flightbooking" target="17" />
+      <module name="parkinglot" target="17" />
+      <module name="paymentApi" target="17" />
+      <module name="tiny-url" target="1.5" />
+      <module name="tinyurl" target="17" />
+      <module name="ubereats" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

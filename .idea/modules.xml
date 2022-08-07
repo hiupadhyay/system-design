@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chess/chess.iml" filepath="$PROJECT_DIR$/chess/chess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cronparser/cronparser.iml" filepath="$PROJECT_DIR$/cronparser/cronparser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elevator/elevator.iml" filepath="$PROJECT_DIR$/elevator/elevator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flightbooking/flightbooking.iml" filepath="$PROJECT_DIR$/flightbooking/flightbooking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parkinglot/parkinglot.iml" filepath="$PROJECT_DIR$/parkinglot/parkinglot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paymentApi/paymentApi.iml" filepath="$PROJECT_DIR$/paymentApi/paymentApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/system-design.iml" filepath="$PROJECT_DIR$/.idea/system-design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tinyurl/tinyurl.iml" filepath="$PROJECT_DIR$/tinyurl/tinyurl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ubereats/ubereats.iml" filepath="$PROJECT_DIR$/ubereats/ubereats.iml" />
+    </modules>
+  </component>
+</project>
