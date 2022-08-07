@@ -1,0 +1,20 @@
+@startuml
+
+Parser -> ParserService: Step 1: split()
+ParserService -> Parser: Step 1: return splitted array
+Parser -> ParserService:Step 2: parse each expression
+ParserService -> ParserService:Step 3: identify ExpressionType
+ParserService->AnyValueParser:Step 4: When ExpressionType ALL Ex: * * *
+ParserService->RangeParser:Step 4: When ExpressionType RANGE Ex: 1-2
+ParserService->StepValueParser:Step 4: When ExpressionType STEPVALUE */2
+ParserService->ListParser:Step 4: When ExpressionType LIST 1,2
+ListParser-> Validator:Step 5: validate
+Validator->ListParser: Step 5: throws exception if invalid list
+RangeParser-> Validator:Step 5: validate
+Validator->RangeParser: Step 5: throws exception if invalid range
+AnyValueParser->ParserService:Step 6: return parsed result
+RangeParser->ParserService:Step 6: return parsed result
+StepValueParser->ParserService:Step 6: return parsed result
+ListParser->ParserService:Step 6: return parsed result
+ParserService->Parser:Step 7: return parsed result
+@enduml
