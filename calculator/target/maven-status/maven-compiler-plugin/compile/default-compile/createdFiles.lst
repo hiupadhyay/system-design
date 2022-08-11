@@ -1,8 +1,0 @@
-strategies/Operator.class
-strategies/SubtractionStrategy.class
-strategies/AdditionStrategy.class
-strategies/MultiplicationStrategy.class
-strategies/DivisionStrategy.class
-CalculatorDriver.class
-context/CalculatorService.class
-strategies/CalculationStrategy.class
